@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FAFAFA;
+  font: 12pt "Tahoma";
+}
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.page {
+  width: 21cm;
+  min-height: 29.7cm;
+  padding: 2cm;
+  margin: 1cm auto;
+  border: 0px ;
+  border-radius: 5px;
+  background: #e1E3DD;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.subpage {
+  padding: 1cm;
+  height: 256mm;
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}

@@ -1,0 +1,120 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+* {margin: 0; padding: 0;}
+
+html {
+	height: 100%;
+	background: 
+		linear-gradient(rgba(196, 102, 0, 0.6), rgba(155, 89, 182, 0.6));
+}
+html {
+  min-width: 100%;
+  min-height: 100%;
+}
+body {
+	font-family: montserrat, arial, verdana;
+
+}
+#top,#middle,#bottom{
+    height: 600px;
+    width: 300px;
+    background: green; 
+}
+/*form styles*/
+#msform {
+	width: 800px;
+	margin: 50px auto;
+	text-align: center;
+	position: relative;
+}
+#msform fieldset {
+	background: gray;
+	border: 0 none;
+	border-radius: 3px;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+	padding: 20px 30px;
+	box-sizing: border-box;
+	width: 80%;
+	margin: 0 10%;
+
+	position: relative;
+}
+
+#msform input, #msform textarea {
+	padding: 15px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: montserrat;
+	color: #2C3E50;
+	font-size: 13px;
+}
+
+#msform .action-button:hover, #msform .action-button:focus {
+	box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+.fs-title {
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #2C3E50;
+	margin-bottom: 10px;
+}
+.fs-subtitle {
+	font-weight: normal;
+	font-size: 13px;
+	color: #666;
+	margin-bottom: 20px;
+}
+a {
+  text-decoration: none;
+  line-height: $btn-height;
+  color: black;
+}
+
+.centerer {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 1rem
+}
+@media (min-width: 600px) {
+  .wrap {
+    width: 50%;
+    float: left;
+  }
+}
+[class^="btn-"] {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  @include size(100%, $btn-height);
+  max-width: $btn-width;
+  margin: 1rem auto;
+  text-transform: uppercase;
+  text-align: center;
+  border: 1px solid currentColor;
+}
+
+.btn-0 {
+  $btn-color: random-color($max:200);
+  $btn-color-dark: shade($btn-color, 40%);
+  color: tint($btn-color);
+
+  &:before {
+    content: '';
+    @include absolute(0,0,0,0);
+    background-color: $btn-color-dark;
+    transform: translateX(-100%);
+	
+  }
+
+  &:hover {
+    color: tint($btn-color, 75%);
+
+    &:before {
+      transform: translateX(0);
+    }
+  }
+}
+

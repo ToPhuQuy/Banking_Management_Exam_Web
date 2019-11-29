@@ -1,0 +1,18 @@
+.navbar .nav-item .avatar .dropdown-toggle img {
+    height: 35px;
+}
+
+#avt-image {
+    height: 40px;
+}
+
+#nav-avt {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-light {
+    background: rgb(139, 181, 221);
+    height: 75px;
+    margin: 0px;
+}

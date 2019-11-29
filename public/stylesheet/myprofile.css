@@ -1,0 +1,74 @@
+.dashboard-form-footer {
+    display: table;
+}
+
+.edit-avatar img {
+    width: 150px;
+}
+
+.edit-avatar {
+    position: relative;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.edit-avatar .upload_image_button {
+    border: none;
+    position: absolute;
+    bottom: 0;
+    left: 13px;
+    background: none;
+    background: #ffffff96;
+    height: 26px;
+    width: 128px;
+    text-align: center;
+    font-size: 12px;
+    padding: 3px;
+}
+
+#avatar_img {
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.list-group {
+    padding: 0;
+}
+
+.list-group a {
+    margin-bottom: 15px;
+}
+
+#div-avt-col {
+    width: 180px;
+}
+
+.post-question-btn {
+    float: left;
+    background: #fb236a;
+    font-size: 15px;
+    color: #ffffff;
+    padding: 0px 20px 0px 20px;
+    border-radius: 40px;
+    border: 2px solid #fb236a;
+    height: 40px;
+    line-height: 40px;
+}
+
+
+/* ======================== */
+
+.file-upload {
+    display: none;
+}
+
+.upload-button {
+    font-size: 1.2em;
+}
+
+.upload-button:hover {
+    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+    color: #999;
+}

@@ -1,0 +1,202 @@
+@font-face {
+    font-family: "OpenSans-CondensedLight";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/fonts/OpenSans-CondensedLight.eot?#iefix") format("embedded-opentype"), url("/fonts/OpenSans-CondensedLight.woff2") format("woff2"), url("/fonts/OpenSans-CondensedLight.woff") format("woff"), url("/fonts/OpenSans-CondensedLight.ttf") format("truetype"), url("/fonts/OpenSans-CondensedLight.svg#OpenSans-CondensedLight") format("svg");
+}
+
+@font-face {
+    font-family: "WebFont";
+    src: url("/fonts/segoeui.ttf");
+}
+
+@font-face {
+    font-family: "BoldFont";
+    src: url("/fonts/segoeuib.ttf");
+}
+
+#main-container {
+    background-image: url('../image/bg_book.jpg');
+    background-size: cover;
+}
+
+#row-content {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-brand {
+    padding: 10px;
+}
+
+body {
+    background: #ebebeb none repeat scroll 0 0;
+}
+
+.ratings {
+    color: #d17581;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.thumbnail {
+    background: rgb(248, 248, 248) none repeat scroll 0 0;
+    border: 1px solid #eee;
+    border-radius: 0;
+    margin: 0;
+    padding: 10px;
+    color: #333;
+}
+
+.thumbnail h4>a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.thumbnail>a {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    /* margin: auto; */
+}
+
+.thumbnail a>img {
+    height: 100px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 15px;
+}
+
+
+/* .thumbnail img {
+    
+    margin: auto;
+} */
+
+.item-book {
+    padding: 0;
+}
+
+.item-book h4 {
+    min-height: 80px;
+}
+
+.item-book h4 a {
+    color: #222;
+    font-size: 10pt;
+    font-weight: 600;
+}
+
+.item-book p {
+    color: #444;
+    display: block;
+    font-size: 9pt;
+}
+
+.cate_book {
+    background: #fff none repeat scroll 0 0;
+    float: left;
+    margin-top: 1em;
+    padding: 1em;
+    width: 100%;
+}
+
+.cate_book h2 {
+    margin: 0 0 0.2em;
+}
+
+.cate_book h2 a {
+    color: green;
+    font-family: unset;
+    font-size: 11pt;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.cate_book p {
+    color: #1d1d1d;
+    display: block;
+    font-size: 12pt;
+}
+
+.cate_book .btn-primary {
+    background: #8dc63f none repeat scroll 0 0;
+    border: medium none;
+}
+
+.pagging {
+    display: inline-flex;
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.pagging li {
+    margin: 3px 3px 3px 0px;
+}
+
+.pagging li a {
+    text-decoration: none;
+}
+
+.pagging li a>div {
+    background-color: #f0a30a;
+    color: #fff;
+    width: 30px;
+    padding: 5px 0px;
+    text-align: center;
+}
+
+.pagging li a.active>div {
+    color: #fff;
+    background-color: #b57a02;
+}
+
+
+/*=========================================================================================== */
+
+
+/*=========================================================================================== */
+
+
+/*=========================================================================================== */
+
+
+/* PHẦN DÀNH CHO:   mytest-open.html */
+
+.title_detail {
+    background: #096 none repeat scroll 0 0;
+    color: #fff;
+    font-family: arial;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.title_detail h3 {
+    font-size: 15pt;
+    margin: 0;
+    padding: 0;
+}
+
+.title_detail p {
+    font-size: 9pt;
+    font-weight: 700;
+    margin: 0;
+    padding: 5px;
+}
+
+.view-pdf #PDFViewer {
+    height: 957px;
+    width: 100%;
+}
+
+.view-pdf {
+    margin-bottom: 10px;
+}

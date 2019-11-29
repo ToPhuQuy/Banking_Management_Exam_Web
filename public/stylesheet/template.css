@@ -1,0 +1,83 @@
+/*
+    Navigation bar
+*/
+@media screen and (min-width: 768px) {
+
+    #navbar li.nav-item {
+        margin-left: 2px;
+    }
+
+    #navbar li.nav-item:hover {
+        background-color: rgba(0,0,0, 0.2);
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    
+    #navbar a.nav-link {
+        text-align: center;
+    }
+}
+
+#navbar li.nav-item.active {
+    background-color: rgba(245, 245, 245, 0.3);
+}
+
+.navbar-toggler {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#nav-toggle-button {
+    outline: none;
+    border: none;
+}
+
+#navbar {
+    transition: 0.5s;
+    background: #2B32B2;
+}
+
+
+#navbar a.nav-link {
+    color: white;
+    opacity: 1;
+}
+
+#footer {
+    background-color: rgba(223,233,236,0.33);
+}
+
+#footer .fa {
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+  
+#footer .fa:hover {
+    opacity: 0.7;
+}
+  
+#footer .fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+#footer .fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+  
+#footer .fa-reddit {
+    background: #ff5700;
+    color: white;
+}
+  
+#footer .fa-rss {
+    background: #ff6600;
+    color: white;
+}
